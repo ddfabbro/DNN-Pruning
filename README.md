@@ -1,6 +1,6 @@
 # DNN-Pruning
 
-Pruing is one of the hot topics on reduction of computing resources requiered by ML-based applications. The literature is now plentyful on different criteria that can be used to select what weights to prune. In their papaer [Pruning Filter for Efficient ConvNets](https://arxiv.org/abs/1608.08710), Li Hao and his co-authors intoduce a simple approach for pruning CNNs without needing to evaluate forward path on a dataset.  A nice and read-friendly blog on the subject of pruning can be found in this [blog](https://jacobgil.github.io/deeplearning/pruning-deep-learning).
+Pruing is one of the hot topics on reduction of computing resources requiered by ML-based applications. The literature is now plentyful on different criteria that can be used to select what weights to prune. In their paper [Pruning Filter for Efficient ConvNets](https://arxiv.org/abs/1608.08710), Li Hao and his co-authors introduce a simple approach for pruning CNNs without needing to evaluate forward path on a dataset.  A nice and read-friendly blog on the subject of pruning can be found in this [blog](https://jacobgil.github.io/deeplearning/pruning-deep-learning).
 
 ## Dependencies
 
