@@ -26,7 +26,7 @@ c.dcdic = {'conv1_1': 32,
 ## NOTE: Is not necessary to alter the following configuration for runing the filter pruning 
 ## demo code!
 #############################################################################################
-gpu=1
+gpu=False
 dataset="imagenet" # cifar10
 caffe_vis = '0,1,2,3'
 tf_vis = '4,5,6,7'

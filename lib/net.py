@@ -56,7 +56,7 @@ class Net():
             caffe.set_mode_gpu()
             caffe.set_device(0)
         else:
-            # caffe.set_mode_cpu()
+            caffe.set_mode_cpu()
             print("using CPU caffe")
         self.net = caffe.Net(pt, phase)#, level=2) # creates net but not load weights -by Mario
         self.pt_dir = pt
