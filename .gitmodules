@@ -2,3 +2,6 @@
 	path = caffe-pro
 	url = git@github.com:yihui-he/caffe-pro.git
 	branch = master
+[submodule "caffe"]
+	path = caffe
+	url = https://github.com/yihui-he/caffe-pro.git
